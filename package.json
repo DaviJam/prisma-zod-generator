@@ -1,0 +1,29 @@
+{
+  "name": "prisma-zod-generator",
+  "version": "1.0.0",
+  "description": "Generate Zod schemas from Prisma models",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "prismaToZod": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "zod": "^3.20.0"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaviJam/prisma-zod-generator.git"
+  },
+  "author": "DaviJam",
+  "license": "MIT"
+}
